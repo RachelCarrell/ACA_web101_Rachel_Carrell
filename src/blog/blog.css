@@ -1,0 +1,6 @@
+.box {
+    border: solid 2px black;
+    margin: 10px 200px;
+    padding: 10px 10px;
+    line-height: 1.6;
+}
