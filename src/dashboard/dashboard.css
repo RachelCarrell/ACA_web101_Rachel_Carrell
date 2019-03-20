@@ -1,0 +1,34 @@
+main {
+    display: grid;
+    width: 1400px;
+    height: 1000px;
+    grid-template-columns: 30% 90%;
+    grid-auto-rows: 10% 90%;
+    grid-gap: 5px;
+    font-family: futura;
+}
+.layout {
+    background-color: #DAB712;
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) ;
+    grid-template-rows: 40px repeat(6, 1fr);
+    grid-gap: 5px;
+}
+.caldays {
+    background-color: #7FA78C;
+    text-align: center;
+    padding: 6px;
+    font-size: 22px;
+    color: #003F1A;
+    font-weight: bold;
+  }
+  .caldate {
+    background-color: #7FA78C;
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+    color: #99321C;
+     font-weight: bold;
+}
