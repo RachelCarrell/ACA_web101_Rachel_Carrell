@@ -1,34 +1,130 @@
-main {
+* {
+    box-sizing: border-box;
+  }
+  body {
+      font-family: futura;
+  }
+  .dashboard {
+    border: 1px solid black;
     display: grid;
-    width: 1400px;
-    height: 1000px;
-    grid-template-columns: 30% 90%;
-    grid-auto-rows: 10% 90%;
-    grid-gap: 5px;
-    font-family: futura;
-}
-.layout {
-    background-color: #DAB712;
-}
-.calendar {
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 100%;
+    height: 800px;
+  }
+  .greeting {
+      background-color: #9A3013;
+      color: white;
+  }
+  #welcome {
+       text-align: center;
+       margin: 36px;
+       font-size: 1.5em;
+  }
+  .clock {
+    grid-column: span 2;
+    border: 1px solid black;
+  }
+  .calc {
+    border: 1px solid black;
+  }
+  header {
+    grid-column: span 1;
+    border: 1px solid black;
+  }
+  .cal {
+    grid-column: span 2;
+    border: 1px solid black;
+    background: #DAB600;
+    border-radius: 5px;
+  }
+  .to-do {
+    grid-column: span 3;
+    border: 1px solid black;
+  }
+  .calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .calculator input {
+    background: none;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    text-align: right;
+    font-size: 30px;
+  }
+  
+  .calculator-buttons {
     display: grid;
-    grid-template-columns: repeat(7, 1fr) ;
-    grid-template-rows: 40px repeat(6, 1fr);
-    grid-gap: 5px;
-}
-.caldays {
-    background-color: #7FA78C;
-    text-align: center;
-    padding: 6px;
-    font-size: 22px;
-    color: #003F1A;
+    padding: 10px;
+    grid-template: repeat(5,1fr) / repeat(4,1fr);
+    grid-gap: 15px;
     font-weight: bold;
   }
-  .caldate {
-    background-color: #7FA78C;
-    font-size: 70px;
+  
+  .calc-button {
+    background: #7FA88C;
+    border: 1px solid #004019;
+    padding: 15px;
+    color: #004019;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .is-clear {
+    grid-column: 1/4;
+    background: #9A3013;
+  }
+  .is-zero {
+    grid-column: span 3;
+  }
+  .is-equals {
+    background: #DAB600;
+  }
+  .month {
+    width: 100%;
     text-align: center;
-    padding: 20px;
-    color: #99321C;
-     font-weight: bold;
-}
+    font-size: 30px;
+    padding: 10px;
+    background: #DAB712;
+    border: 2px solid #7FA78C;
+  }
+  .layout {
+      background-color: #DAB712;
+  }
+  .calendar {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr) ;
+      grid-template-rows: 8% repeat(6, 1fr);
+      grid-gap: 1px;
+  }
+  .caldays {
+      background-color: #7FA78C;
+      text-align: center;
+      padding: 6px;
+      font-size: 20px;
+      color: #003F1A;
+      font-weight: bold;
+    }
+    .caldate {
+      background-color: #7FA78C;
+      font-size: 50px;
+      text-align: center;
+      color: #99321C;
+       font-weight: bold;
+  }
+  .to-do {
+      background: #DAB712;
+      color: black;
+      padding: 10px 0 0 15px;
+      font-size: 1.15em;
+  }
+  .list {
+    color: #004019;
+  }
