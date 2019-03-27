@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    font-family: futura;
+  }
+.dashboard {
+      display: grid;
+      grid-template: repeat(auto)  / repeat(2,1fr);
+      background-color: #F9F9F9;
+  }
+.greeting {
+    grid-column: span 2;
+    background-color: #A1D8BF;
+    border: 1px solid #A1D8BF;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 5px;
+    padding: 5px;
+}
+.clock {
+    grid-column: span 2;
+    background-color: #F9F9F9;
+}
+.digital-clock {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25em;
+    padding: 0px 0px .4em 0px;
+}
+.calc {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px 80px 0px 0px;
+}
+.calc input {
+    background: none;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    border-bottom: 2px solid black;
+    text-align: right;
+    font-size: 1em;
+}
+.calculator-buttons {
+    display: grid;
+    grid-template: repeat(5,1fr) / repeat(4,1fr);
+    grid-gap: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+.calc-button {
+    background: #9A91D9;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 3px;
+    cursor: pointer;
+}
+.calc-wrap {
+    padding: 0px 0px 0px 2em;
+}
+  .is-clear {
+    grid-column: 1/4;
+    background: #C9C8C9;
+}
+  .is-zero {
+    grid-column: span 3;
+}
+  .is-equals {
+    background: #A1D8BF;
+}
+.month {
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    background: #9A91D9;
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) ;
+    grid-template-rows: auto repeat(6, 1fr);
+    grid-gap: 1px;
+}
+.caldays {
+    background-color: #A1D8BF;
+    text-align: center;
+    padding: 3px;
+    font-size: .25em;
+    color: black;
+    font-weight: bold;
+}
+.caldate {
+    background-color: #A1D8BF;
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.to-do {
+    grid-column: span 2;
+    background: #A1D8BF;
+    color: black;
+    padding: 0px 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    font-size: .7em;
+}
+.list {
+  color: #004019;
+}
+
+
+
+
+
+
+
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    .dashboard {
+        display: grid;
+        grid-template: repeat(auto)  / repeat(3,1fr);
+    }
+    .greeting {
+        grid-column: span 1;
+        padding: 15px;
+    }
+    .clock {
+        grid-column: span 1;
+        padding: 25px 0px 0px 0px;
+        font-size: 1.5em;
+    }
+    .calc {
+        grid-column: span 1;
+        max-width: 80%;
+    }
+    .calc-wrap {
+        padding: 40px 0px 0px 20px;
+    }
+    .cal {
+        grid-column: span 1;
+    }
+    .to-do {
+        font-size: 1em;
+    }
+    .calc-button {
+        margin: 5px;
+    }
+    .month {
+        font-size: 1.5em;
+        padding: 8px;
+    }
+    .calendar {
+        grid-gap: 2px;
+    }
+    .caldays {
+        padding: 8px;
+        font-size: 1em;
+    }
+    .caldate {
+        padding: 5px;        
+        font-size: 1.25em;
+    }
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+
+}

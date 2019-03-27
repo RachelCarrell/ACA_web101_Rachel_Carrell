@@ -29,25 +29,25 @@
     justify-content: center;
     font-size: 3em;
   }
-  header {
+header {
     grid-column: span 1;
   }
-  .cal {
+.cal {
     grid-column: span 2;
     background: #DAB600;
     border-radius: 5px;
   }
-  .to-do {
+.to-do {
     grid-column: span 3;
   }
-  .calculator {
+.calculator {
     max-width: 400px;
     margin: 30px auto;
     border: 2px solid black;
     border-radius: 5px;
   }
   
-  .calculator input {
+.calculator input {
     background: none;
     border: none;
     box-shadow: none;
@@ -58,15 +58,14 @@
     font-size: 30px;
   }
   
-  .calculator-buttons {
+.calculator-buttons {
     display: grid;
     padding: 10px;
     grid-template: repeat(5,1fr) / repeat(4,1fr);
     grid-gap: 15px;
     font-weight: bold;
   }
-  
-  .calc-button {
+.calc-button {
     background: #7FA88C;
     border: 1px solid #004019;
     padding: 15px;
@@ -75,17 +74,17 @@
     font-size: 20px;
     cursor: pointer;
   }
-  .is-clear {
+.is-clear {
     grid-column: 1/4;
     background: #9A3013;
   }
-  .is-zero {
+.is-zero {
     grid-column: span 3;
   }
-  .is-equals {
+.is-equals {
     background: #DAB600;
   }
-  .month {
+.month {
     width: 100%;
     text-align: center;
     font-size: 30px;
@@ -93,16 +92,16 @@
     background: #DAB712;
     border: 2px solid #7FA78C;
   }
-  .layout {
+.layout {
       background-color: #DAB712;
   }
-  .calendar {
+.calendar {
       display: grid;
       grid-template-columns: repeat(7, 1fr) ;
       grid-template-rows: 8% repeat(6, 1fr);
       grid-gap: 1px;
   }
-  .caldays {
+.caldays {
       background-color: #7FA78C;
       text-align: center;
       padding: 6px;
@@ -110,19 +109,19 @@
       color: #003F1A;
       font-weight: bold;
     }
-    .caldate {
+.caldate {
       background-color: #7FA78C;
       font-size: 50px;
       text-align: center;
       color: #99321C;
-       font-weight: bold;
+      font-weight: bold;
   }
-  .to-do {
+.to-do {
       background: #DAB712;
       color: black;
       padding: 10px 0 0 15px;
       font-size: 1.15em;
   }
-  .list {
+.list {
     color: #004019;
   }

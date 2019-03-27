@@ -1,0 +1,25 @@
+body {
+    margin: 0 auto;
+    width: 850px;
+}
+main {
+    height: 450px;
+    background-image: url(./greg-rakozy-53292-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Anton', sans-serif;
+}
+section {
+    display: flex;
+    height: 324px;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+article {
+    width: 270px;
+    background-color: lightgray;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
