@@ -11,6 +11,7 @@ main {
 }
 section {
     display: flex;
+    flex-direction: column;
     height: 324px;
     justify-content: space-between;
     background-color: lightgray;
@@ -22,4 +23,10 @@ article {
 h1 {
     text-align: center;
     color: white;
+}
+
+@media (min-width: 576px) {
+    .section {
+    flex-direction: row;
+    }
 }
