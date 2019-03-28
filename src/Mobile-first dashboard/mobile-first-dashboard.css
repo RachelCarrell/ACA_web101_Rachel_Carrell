@@ -82,6 +82,7 @@
     grid-template-columns: repeat(7, 1fr) ;
     grid-template-rows: auto repeat(6, 1fr);
     grid-gap: 1px;
+    height: 85%;
 }
 .caldays {
     background-color: #A1D8BF;
@@ -143,10 +144,11 @@
     }
     .calc {
         grid-column: span 1;
-        width: 345px;
+        width: 200px;
     }
     .calc-wrap {
-        padding: 40px 0px 0px 20px;
+        align-content: center;
+        margin: 50px;
     }
     .cal {
         grid-column: span 1;
@@ -214,6 +216,9 @@
         font-size: 25px;
         cursor: pointer;
       }
+    .calc {
+        width: 320px;
+    }
     .month {
         width: 100%;
         text-align: center;
