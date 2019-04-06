@@ -110,19 +110,11 @@
     box-shadow: 5px 5px #9A91D9;
 }
 .list {
-  color: #004019;
+  color: black;
 }
-
-
-
-
-
-
-
-
-/* Small and up (Landscape Phones) */
-@media (min-width: 576px) {
-
+.head {
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 /* Medium and up (Tablets) */
@@ -144,7 +136,10 @@
     }
     .calc {
         grid-column: span 1;
-        width: 200px;
+        width: 250px;
+    }
+    .calc input {
+        font-size: 1.25em;
     }
     .calc-wrap {
         align-content: center;
@@ -158,6 +153,7 @@
     }
     .calc-button {
         margin: 5px;
+        font-size: 1.2em;
     }
     .month {
         font-size: 1.5em;

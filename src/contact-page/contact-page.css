@@ -1,0 +1,105 @@
+.title {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.center-grid {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    border-width: 0 0 2px 0;
+    border-color: #000;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: Lusitana, serif;
+    padding-bottom: 8px;
+    margin-bottom:50px;
+}
+.form-row-1 {
+    justify-content: center;
+    display: flex;
+}
+.form-row-2 {
+    justify-content: center;
+    display: flex;
+}
+.form-row-3 {
+    justify-content: center;
+    display: flex;
+}
+.form-row-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+    width: 375px;
+    margin-right: 10px;
+}
+.email {
+    width: 375px;
+    margin-left: 10px;
+}
+.number {
+    width: 375px;
+    margin-right: 10px;
+}
+.site {
+    width: 375px;
+    margin-left: 10px;
+}
+.form {
+    width: 770px;
+}
+.submit-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+    .title {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .form-row-1 {
+        display: inline-block;
+    }
+    .form-row-2 {
+        display: inline-block;
+    }
+    .form-row-3 {
+        display: block;
+    }
+    .form-row-4 {
+      display: block;
+    }
+    .submit-btn {
+        line-height: 24px;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .form {
+        width: 376px;
+    }
+    .site {
+        margin-left: 0px;
+    }
+    .email {
+        margin-left: 0px;
+    }
+  }
+  
