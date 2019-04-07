@@ -1,0 +1,114 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.image {
+    width: 300px;
+    height: 125px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.nav {
+    width: 400px;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+}
+.central {
+    position: absolute;
+    object-fit: contain;
+    height: 80%;
+    object-fit: inherit;
+    width: 100%;
+    display: block;
+    opacity: .9;
+}
+.central-line {
+    height: 600px;
+}
+.border {
+    position: absolute;
+    z-index: 2;
+    top: 63%;
+    left: 39%;
+    background-color: black;
+    width: 239px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    opacity: .8;
+}
+.brand {
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2.25em;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.sharp {
+    position: relative;
+    left: 37%;
+    top: 57%;
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    opacity: .8;
+    color: #97CCC0;
+    border: 1px solid black;
+    background-color: black;
+    width: 290px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.photo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    width: 100%;
+    height: 200px;
+}
+.sweeney {
+    width: 210px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+.ramy {
+    width: 210px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+.renata {
+    width: 210px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+.names {
+    display: flex;
+    justify-content: space-evenly;
+    margin: -7px -61px 10px -61px;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-weight: lighter;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
