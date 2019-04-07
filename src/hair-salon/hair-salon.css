@@ -41,7 +41,7 @@
     position: absolute;
     z-index: 2;
     top: 63%;
-    left: 39%;
+    left: 37%;
     background-color: black;
     width: 239px;
     padding: 10px 15px;
@@ -59,7 +59,7 @@
 }
 .sharp {
     position: relative;
-    left: 37%;
+    left: 35%;
     top: 57%;
     font-size: 1.5em;
     font-family: 'Roboto Slab', serif;
@@ -97,7 +97,7 @@
     width: 210px;
     height: 200px;
     border-radius: 5px;
-    border: 2px solid black;
+    border: 1px solid black;
     object-fit: cover;
 }
 .names {
@@ -106,6 +106,27 @@
     margin: -7px -61px 10px -61px;
     font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
     font-weight: lighter;
+}
+.social {
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    opacity: .9;
+}
+.social-media {
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 15px 0px 15px 815px;
+}
+.fab {
+    font-size: 30px;
+}
+.fas {
+    font-size: 30px;
 }
 a {
     text-decoration: none;
