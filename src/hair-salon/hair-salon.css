@@ -17,7 +17,7 @@
 }
 .nav {
     width: 400px;
-    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-family: 'Heebo', sans-serif;
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
@@ -104,8 +104,7 @@
     display: flex;
     justify-content: space-evenly;
     margin: -7px -61px 10px -61px;
-    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-    font-weight: lighter;
+    font-family: 'Heebo', sans-serif;
 }
 .social {
     height: 65px;
