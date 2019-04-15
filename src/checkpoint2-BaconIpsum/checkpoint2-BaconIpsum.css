@@ -1,0 +1,19 @@
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.foot1 {
+    width: 200px;
+}
+.foot2 {
+    width: 200px;
+}
+.foot3 {
+    width: 200px;
+}
