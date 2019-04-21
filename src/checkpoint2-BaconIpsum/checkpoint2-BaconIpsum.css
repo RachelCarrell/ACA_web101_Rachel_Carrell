@@ -45,7 +45,7 @@ img {
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    height: 299px;
+    height: 370px;
     background-color: black;
     color: white;
     text-align: center;
@@ -228,14 +228,16 @@ img {
   transform: none;
 }
 .social-con {
-    width: 400px;
+    width: 100%;
     height: 20px;
 }
 .social {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 0px;
+    justify-content: flex-end;
+    margin: 0px 17px 0px 0px;
+    padding: 0px;
+    font-size: 2px;
 }
 li {
     list-style-type: none;

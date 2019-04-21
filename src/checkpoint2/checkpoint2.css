@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.head-nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #05AFA9;
+}
+.header-image {
+    width: 100%;
+    background-color: #05AFA9;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    padding-top: 20px;
+}
+.navbar {
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 30px 0px;
+}
+ul {
+    list-style-type: none;
+}
+.img img {
+    width: 250px;
+    height: 250px;
+}
+.central-nav {
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+}
+.image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+.left-central-nav:hover {
+    background: rgba(255,102,0, 0.6);
+}
+.left-central-nav {
+    float: left;
+    position: relative;
+    color: white;
+    width: 49.5%;
+}
+.nav-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    width: 340px;
+}
+.right-central-nav {
+    float: right;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 49.5%;
+}
+.nav-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.second-central-nav {
+    height: 350px;
+    display: flex;
+    background-color: #B6E5D8;
+    justify-content: space-evenly;
+    color: #fffdd0;
+    font-family: 'Cutive', serif;
+}
+.second-central-nav div {
+    width: 300px;
+    height: 250px;
+    background-color: #05AFA9;
+    border: 3px #05918D solid;
+}
+.second-central {
+    display: inline-block;
+    width: 100%;
+}
+.box {
+    position: relative;
+    margin-top: 3.5%;
+}
+.text {
+    position: absolute;
+    top: 19%;
+    left: 1%;
+    font-size: 2.5em;
+    text-align: center;
+}
+.image2 {
+    width: 300px;
+    height: 250px;
+}
+.arrivals {
+    text-align: center;
+}
+.arrivals-blurb {
+    font-size: 1.25em;
+    padding: 50px 0px 20px 0px;
+    text-transform: uppercase;
+    font-family: 'Cutive', serif;
+    font-weight: bold;
+}
+.follow {
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+}
+.instagram {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 35px;
+}
+.img img {
+    height: 275px;
+    width: 275px;
+}
+.footer {
+    display: flex;
+    height: 150px;
+    background-color: #05AFA9;
+    justify-content: space-around;
+}
+.fab {
+    color: white;
+    font-size: 1.75em;
+}
+.mid {
+    padding-top: 60px;
+    padding: 60px 25px 0px 0px;
+}
+.mid a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
