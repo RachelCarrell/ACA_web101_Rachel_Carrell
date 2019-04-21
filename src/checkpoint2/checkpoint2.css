@@ -40,6 +40,8 @@ ul {
 .central-nav {
     width: 100%;
     font-family: 'Roboto Slab', serif;
+    height: 500px;
+    background-color: #B6E5D8;
 }
 .image {
     width: 100%;
